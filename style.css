@@ -35,6 +35,7 @@ Version: 1.0
 6.5) =equipo:
 6.6) =clientes:
 6.7) =contacto:
+6.8) =footer:
 
 FIN DE MAPA DE CONTENIDOS */
 
@@ -433,8 +434,51 @@ section{
   grid-template-rows:repeat(6,1fr);
   padding: 1rem 10%;
 }
+.clienteLogo{
+  height: auto;
+  width: 100%;
+}
 /* ---------------------------------------------------------------------------
 ------------------------------------------------------------------------------
                             6.7) =contacto:
 ------------------------------------------------------------------------------
 --------------------------------------------------------------------------- */
+.contacto{
+  grid-template-columns: 1fr 1fr;
+}
+.contactInfo{
+  background:var(--color3);
+  height: 100%;
+  display: grid;
+  align-items: center;
+}
+.contactoTitle{
+  color:var(--color2);
+}
+/* ---------------------------------------------------------------------------
+------------------------------------------------------------------------------
+                            6.8) =footer:
+------------------------------------------------------------------------------
+--------------------------------------------------------------------------- */
+.footer{
+  scroll-snap-align: end;
+  background:var(--color3);
+  font-size: .8rem;
+  display: flex;
+  padding: .5rem 1rem;
+
+}
+.footerLogoCont{
+  height:2rem;
+}
+.footerLogo{
+  height:100%;
+  width:auto;
+}
+.footerTexts{
+  grid-auto-columns: max-content;
+  font-size:.6rem;
+  align-items: center;
+  margin-left: auto;
+}
+.legalLinks{color:inherit;}
