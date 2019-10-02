@@ -2,8 +2,9 @@
 
 <section class="hero" id="hero">
   <video class="heroBackground sup1" autoplay loop muted playsinline><source src="https://keepdoing.topika.io/wp-content/themes/kd003/videos/background-city-video-transcode-transcode.mp4"></video>
-  <!-- TODO: agregar efecto de escritura -->
-  <h1 class="heroTitle sup1 title">Keep creating</h1>
+  <h1 class="heroTitle sup1 title">Keep
+    <span href="" class="typewrite" data-period="5000" data-type='[ "creating", "working", "trusting", "growing" ]'></span>
+  </h1>
 </section>
 
 <section class="nosotros" id="nosotros">
@@ -19,7 +20,9 @@
 </section>
 
 <section class="servicios" id="servicios">
-  <h3 class="serviciosTitle title">Keep creating</h3>
+  <h3 class="serviciosTitle title">Keep
+    <span href="" class="typewrite" data-period="4000" data-type='[ "creating" ]'></span>
+  </h3>
   <ul class="serviciosList grColumnMC">
     <li>
       <figure>
@@ -89,7 +92,9 @@
 
 <section class="proyectos" id="proyectos">
 
-  <h3 class="serviciosTitle title">Keep creating</h3>
+  <h3 class="serviciosTitle title">Keep
+    <span href="" class="typewrite" data-period="4000" data-type='[ "creating" ]'></span>
+  </h3>
 
   <ul class="filter grColumnMC">
     <li class="filterItem">
@@ -117,7 +122,9 @@
 </section>
 
 <section class="equipo" id="equipo">
-  <h3 class="equipoTitle title">Keep team</h3>
+  <h3 class="equipoTitle title">Keep
+    <span href="" class="typewrite" data-period="4000" data-type='[ "team" ]'></span>
+  </h3>
   <h5 class="equipoSubTitle">Hola. Somos <span class="specialTxt">Keep Doing</span></h5>
   <ul class="equipoList">
     <li class="equipoItem">
@@ -174,48 +181,60 @@
 </section>
 
 <section class="clientes" id="clientes">
-  <h3 class="title specialTxt">Keep trusting</h3>
+  <h3 class="title specialTxt">Keep
+    <span href="" class="typewrite" data-period="4000" data-type='[ "trusting" ]'></span>
+  </h3>
   <div class="clientesGrid">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
-    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
+    <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
   </div>
   <img class="nosotrosIso" src="<?php echo get_template_directory_uri(); ?>/img/iso.png" alt="">
 </section>
 
-<h1>Soy el Front Page</h1>
+<section class="contacto" id="contacto">
+  <div class="map"></div>
+  <div class="contactInfo">
+    <h3 class="contactoTitle title">Keep
+      <span href="" class="typewrite" data-period="4000" data-type='[ "in contact" ]'></span>
+    </h3>
+    <p class="contactoMail">hola@keepdoing.pro</p>
+    <p class="contactoAddress">C/ Sebastián Elcano 32 1º10 - Madrid 28012</p>
+    <p class="contactoPhone">t. +34 91 939 64 59</p>
+  </div>
+</section>
 
 <?php get_footer(); ?>
