@@ -1,13 +1,13 @@
 <?php get_header(); ?>
 
-<section class="hero" id="hero">
-  <video class="heroBackground sup1" autoplay loop muted playsinline><source src="https://keepdoing.topika.io/wp-content/themes/kd003/videos/background-city-video-transcode-transcode.mp4"></video>
+<section class="hero" id="hero" data-target="hHome">
+  <video class="heroBackground sup1" autoplay loop muted playsinline><source src="<?php echo get_template_directory_uri(); ?>/videos/background-city.mp4"></video>
   <h1 class="heroTitle sup1 title">Keep
-    <span href="" class="typewrite" data-period="5000" data-type='[ "creating", "working", "trusting", "growing" ]'></span>
+    <span class="typewrite" data-period="4000" data-type='[ "creating", "working", "trusting", "growing" ]'></span>
   </h1>
 </section>
 
-<section class="nosotros" id="nosotros">
+<section class="nosotros" id="nosotros" data-target="hNosotros">
   <img class="nosotrosBG" src="<?php echo get_template_directory_uri(); ?>/img/KD_01.jpg" alt="">
   <img class="nosotrosLogo" src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="">
   <p class="nosotrosTxt">
@@ -19,9 +19,9 @@
   <img class="nosotrosIso" src="<?php echo get_template_directory_uri(); ?>/img/iso.png" alt="">
 </section>
 
-<section class="servicios" id="servicios">
+<section class="servicios" id="servicios" data-target="hServicios">
   <h3 class="serviciosTitle title">Keep
-    <span href="" class="typewrite" data-period="4000" data-type='[ "creating" ]'></span>
+    <span class="typewrite" data-period="4000" data-type='[ "creating" ]'></span>
   </h3>
   <ul class="serviciosList grColumnMC">
     <li>
@@ -90,10 +90,10 @@
   <img class="nosotrosIso" src="<?php echo get_template_directory_uri(); ?>/img/isoG.png" alt="">
 </section>
 
-<section class="proyectos" id="proyectos">
+<section class="proyectos" id="proyectos" data-target="hProyectos">
 
   <h3 class="serviciosTitle title">Keep
-    <span href="" class="typewrite" data-period="4000" data-type='[ "creating" ]'></span>
+    <span class="typewrite" data-period="4000" data-type='[ "creating" ]'></span>
   </h3>
 
   <ul class="filter grColumnMC">
@@ -283,9 +283,9 @@
   <img class="nosotrosIso" src="<?php echo get_template_directory_uri(); ?>/img/iso.png" alt="">
 </section>
 
-<section class="equipo" id="equipo">
+<section class="equipo" id="equipo" data-target="hEquipo">
   <h3 class="equipoTitle title">Keep
-    <span href="" class="typewrite" data-period="4000" data-type='[ "team" ]'></span>
+    <span class="typewrite" data-period="4000" data-type='[ "team" ]'></span>
   </h3>
   <h5 class="equipoSubTitle">Hola. Somos <span class="specialTxt">Keep Doing</span></h5>
   <ul class="equipoList">
@@ -342,9 +342,9 @@
   <img class="nosotrosIso" src="<?php echo get_template_directory_uri(); ?>/img/iso.png" alt="">
 </section>
 
-<section class="clientes" id="clientes">
+<section class="clientes" id="clientes" data-target="hClientes">
   <h3 class="title specialTxt">Keep
-    <span href="" class="typewrite" data-period="4000" data-type='[ "trusting" ]'></span>
+    <span class="typewrite" data-period="4000" data-type='[ "trusting" ]'></span>
   </h3>
   <div class="clientesGrid">
     <img class="clienteLogo" src="<?php echo get_template_directory_uri(); ?>/img/clientes/aeagp.png" alt="">
@@ -387,11 +387,11 @@
   <img class="nosotrosIso" src="<?php echo get_template_directory_uri(); ?>/img/iso.png" alt="">
 </section>
 
-<section class="contacto" id="contacto">
+<section class="contacto" id="contacto" data-target="hContacto">
   <div class="map"></div>
   <div class="contactInfo">
     <h3 class="contactoTitle title">Keep
-      <span href="" class="typewrite" data-period="4000" data-type='[ "in contact" ]'></span>
+      <span class="typewrite" data-period="4000" data-type='[ "in contact" ]'></span>
     </h3>
     <p class="contactoMail">hola@keepdoing.pro</p>
     <p class="contactoAddress">C/ Sebastián Elcano 32 1º10 - Madrid 28012</p>
