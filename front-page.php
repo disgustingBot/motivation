@@ -116,7 +116,169 @@
       <p>DISEÑO</p>
     </li>
   </ul>
-  <!-- TODO: hacer grilla -->
+
+  <article class="gridContainer">
+    <figure class="gridProject gridProject1">
+      <img class="projectImg" src="<?php echo get_template_directory_uri(); ?>/img/grid/1.jpg" alt="">
+      <figcaption class="projectFigcaption"><p class="projectFigcaptionTxt">Lorem ipsum dolor</p></figcaption>
+      <div class="projectStripe"></div>
+      <div class="projectTriangle">
+        <svg class="projectTriangleSvg" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	      viewBox="0 0 47.297 30.801" enable-background="new 0 0 47.297 30.801" xml:space="preserve">
+          <g>
+	          <circle fill="#3D4543" cx="23.649" cy="23.649" r="7.151"/>
+	          <path fill="#3D4543" d="M7.095,23.648c0-9.142,7.412-16.554,16.554-16.554c9.144,0,16.555,7.412,16.555,16.554
+		        c0,0.06-0.008,0.117-0.009,0.176h7.099c0-0.059,0.004-0.117,0.004-0.176C47.297,10.588,36.709,0,23.648,0
+		        C10.588,0,0,10.588,0,23.648c0,0.059,0.004,0.117,0.004,0.176h7.099C7.103,23.766,7.095,23.708,7.095,23.648z"/>
+          </g>
+        </svg>
+      </div>
+    </figure>
+    <figure class="gridProject gridProject2">
+      <img class="projectImg" src="<?php echo get_template_directory_uri(); ?>/img/grid/2.jpg" alt="">
+      <figcaption class="projectFigcaption"><p class="projectFigcaptionTxt">Lorem ipsum dolor</p></figcaption>
+      <div class="projectStripe"></div>
+      <div class="projectTriangle">
+        <svg class="projectTriangleSvg" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	      viewBox="0 0 47.297 30.801" enable-background="new 0 0 47.297 30.801" xml:space="preserve">
+          <g>
+	          <circle fill="#3D4543" cx="23.649" cy="23.649" r="7.151"/>
+	          <path fill="#3D4543" d="M7.095,23.648c0-9.142,7.412-16.554,16.554-16.554c9.144,0,16.555,7.412,16.555,16.554
+		        c0,0.06-0.008,0.117-0.009,0.176h7.099c0-0.059,0.004-0.117,0.004-0.176C47.297,10.588,36.709,0,23.648,0
+		        C10.588,0,0,10.588,0,23.648c0,0.059,0.004,0.117,0.004,0.176h7.099C7.103,23.766,7.095,23.708,7.095,23.648z"/>
+          </g>
+        </svg>
+      </div>
+    </figure>
+    <figure class="gridProject gridProject3">
+      <img class="projectImg" src="<?php echo get_template_directory_uri(); ?>/img/grid/3.jpg" alt="">
+      <figcaption class="projectFigcaption"><p class="projectFigcaptionTxt">Lorem ipsum dolor</p></figcaption>
+      <div class="projectStripe"></div>
+      <div class="projectTriangle">
+        <svg class="projectTriangleSvg" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	      viewBox="0 0 47.297 30.801" enable-background="new 0 0 47.297 30.801" xml:space="preserve">
+          <g>
+	          <circle fill="#3D4543" cx="23.649" cy="23.649" r="7.151"/>
+	          <path fill="#3D4543" d="M7.095,23.648c0-9.142,7.412-16.554,16.554-16.554c9.144,0,16.555,7.412,16.555,16.554
+		        c0,0.06-0.008,0.117-0.009,0.176h7.099c0-0.059,0.004-0.117,0.004-0.176C47.297,10.588,36.709,0,23.648,0
+		        C10.588,0,0,10.588,0,23.648c0,0.059,0.004,0.117,0.004,0.176h7.099C7.103,23.766,7.095,23.708,7.095,23.648z"/>
+          </g>
+        </svg>
+      </div>
+    </figure>
+    <figure class="gridProject gridProject4">
+      <img class="projectImg" src="<?php echo get_template_directory_uri(); ?>/img/grid/4.jpg" alt="">
+      <figcaption class="projectFigcaption"><p class="projectFigcaptionTxt">Lorem ipsum dolor</p></figcaption>
+      <div class="projectStripe"></div>
+      <div class="projectTriangle">
+        <svg class="projectTriangleSvg" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	      viewBox="0 0 47.297 30.801" enable-background="new 0 0 47.297 30.801" xml:space="preserve">
+          <g>
+	          <circle fill="#3D4543" cx="23.649" cy="23.649" r="7.151"/>
+	          <path fill="#3D4543" d="M7.095,23.648c0-9.142,7.412-16.554,16.554-16.554c9.144,0,16.555,7.412,16.555,16.554
+		        c0,0.06-0.008,0.117-0.009,0.176h7.099c0-0.059,0.004-0.117,0.004-0.176C47.297,10.588,36.709,0,23.648,0
+		        C10.588,0,0,10.588,0,23.648c0,0.059,0.004,0.117,0.004,0.176h7.099C7.103,23.766,7.095,23.708,7.095,23.648z"/>
+          </g>
+        </svg>
+      </div>
+    </figure>
+    <figure class="gridProject gridProject5">
+      <img class="projectImg" src="<?php echo get_template_directory_uri(); ?>/img/grid/5.jpg" alt="">
+      <figcaption class="projectFigcaption"><p class="projectFigcaptionTxt">Lorem ipsum dolor</p></figcaption>
+      <div class="projectStripe"></div>
+      <div class="projectTriangle">
+        <svg class="projectTriangleSvg" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	      viewBox="0 0 47.297 30.801" enable-background="new 0 0 47.297 30.801" xml:space="preserve">
+          <g>
+	          <circle fill="#3D4543" cx="23.649" cy="23.649" r="7.151"/>
+	          <path fill="#3D4543" d="M7.095,23.648c0-9.142,7.412-16.554,16.554-16.554c9.144,0,16.555,7.412,16.555,16.554
+		        c0,0.06-0.008,0.117-0.009,0.176h7.099c0-0.059,0.004-0.117,0.004-0.176C47.297,10.588,36.709,0,23.648,0
+		        C10.588,0,0,10.588,0,23.648c0,0.059,0.004,0.117,0.004,0.176h7.099C7.103,23.766,7.095,23.708,7.095,23.648z"/>
+          </g>
+        </svg>
+      </div>
+    </figure>
+    <figure class="gridProject gridProject6">
+      <img class="projectImg" src="<?php echo get_template_directory_uri(); ?>/img/grid/6.jpg" alt="">
+      <figcaption class="projectFigcaption"><p class="projectFigcaptionTxt">Lorem ipsum dolor</p></figcaption>
+      <div class="projectStripe"></div>
+      <div class="projectTriangle">
+        <svg class="projectTriangleSvg" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	      viewBox="0 0 47.297 30.801" enable-background="new 0 0 47.297 30.801" xml:space="preserve">
+          <g>
+	          <circle fill="#3D4543" cx="23.649" cy="23.649" r="7.151"/>
+	          <path fill="#3D4543" d="M7.095,23.648c0-9.142,7.412-16.554,16.554-16.554c9.144,0,16.555,7.412,16.555,16.554
+		        c0,0.06-0.008,0.117-0.009,0.176h7.099c0-0.059,0.004-0.117,0.004-0.176C47.297,10.588,36.709,0,23.648,0
+		        C10.588,0,0,10.588,0,23.648c0,0.059,0.004,0.117,0.004,0.176h7.099C7.103,23.766,7.095,23.708,7.095,23.648z"/>
+          </g>
+        </svg>
+      </div>
+    </figure>
+    <figure class="gridProject gridProject7">
+      <img class="projectImg" src="<?php echo get_template_directory_uri(); ?>/img/grid/7.jpg" alt="">
+      <figcaption class="projectFigcaption"><p class="projectFigcaptionTxt">Lorem ipsum dolor</p></figcaption>
+      <div class="projectStripe"></div>
+      <div class="projectTriangle">
+        <svg class="projectTriangleSvg" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	      viewBox="0 0 47.297 30.801" enable-background="new 0 0 47.297 30.801" xml:space="preserve">
+          <g>
+	          <circle fill="#3D4543" cx="23.649" cy="23.649" r="7.151"/>
+	          <path fill="#3D4543" d="M7.095,23.648c0-9.142,7.412-16.554,16.554-16.554c9.144,0,16.555,7.412,16.555,16.554
+		        c0,0.06-0.008,0.117-0.009,0.176h7.099c0-0.059,0.004-0.117,0.004-0.176C47.297,10.588,36.709,0,23.648,0
+		        C10.588,0,0,10.588,0,23.648c0,0.059,0.004,0.117,0.004,0.176h7.099C7.103,23.766,7.095,23.708,7.095,23.648z"/>
+          </g>
+        </svg>
+      </div>
+    </figure>
+    <figure class="gridProject gridProject8">
+      <img class="projectImg" src="<?php echo get_template_directory_uri(); ?>/img/grid/8.jpg" alt="">
+      <figcaption class="projectFigcaption"><p class="projectFigcaptionTxt">Lorem ipsum dolor</p></figcaption>
+      <div class="projectStripe"></div>
+      <div class="projectTriangle">
+        <svg class="projectTriangleSvg" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	      viewBox="0 0 47.297 30.801" enable-background="new 0 0 47.297 30.801" xml:space="preserve">
+          <g>
+	          <circle fill="#3D4543" cx="23.649" cy="23.649" r="7.151"/>
+	          <path fill="#3D4543" d="M7.095,23.648c0-9.142,7.412-16.554,16.554-16.554c9.144,0,16.555,7.412,16.555,16.554
+		        c0,0.06-0.008,0.117-0.009,0.176h7.099c0-0.059,0.004-0.117,0.004-0.176C47.297,10.588,36.709,0,23.648,0
+		        C10.588,0,0,10.588,0,23.648c0,0.059,0.004,0.117,0.004,0.176h7.099C7.103,23.766,7.095,23.708,7.095,23.648z"/>
+          </g>
+        </svg>
+      </div>
+    </figure>
+    <figure class="gridProject gridProject9">
+      <img class="projectImg" src="<?php echo get_template_directory_uri(); ?>/img/grid/9.jpg" alt="">
+      <figcaption class="projectFigcaption"><p class="projectFigcaptionTxt">Lorem ipsum dolor</p></figcaption>
+      <div class="projectStripe"></div>
+      <div class="projectTriangle">
+        <svg class="projectTriangleSvg" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	      viewBox="0 0 47.297 30.801" enable-background="new 0 0 47.297 30.801" xml:space="preserve">
+          <g>
+	          <circle fill="#3D4543" cx="23.649" cy="23.649" r="7.151"/>
+	          <path fill="#3D4543" d="M7.095,23.648c0-9.142,7.412-16.554,16.554-16.554c9.144,0,16.555,7.412,16.555,16.554
+		        c0,0.06-0.008,0.117-0.009,0.176h7.099c0-0.059,0.004-0.117,0.004-0.176C47.297,10.588,36.709,0,23.648,0
+		        C10.588,0,0,10.588,0,23.648c0,0.059,0.004,0.117,0.004,0.176h7.099C7.103,23.766,7.095,23.708,7.095,23.648z"/>
+          </g>
+        </svg>
+      </div>
+    </figure>
+    <figure class="gridProject gridProject10">
+      <img  class="projectImg"src="<?php echo get_template_directory_uri(); ?>/img/grid/10.jpg" alt="">
+      <figcaption class="projectFigcaption"><p class="projectFigcaptionTxt">Lorem ipsum dolor</p></figcaption>
+      <div class="projectStripe"></div>
+      <div class="projectTriangle">
+        <svg class="projectTriangleSvg" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	      viewBox="0 0 47.297 30.801" enable-background="new 0 0 47.297 30.801" xml:space="preserve">
+          <g>
+	          <circle fill="#3D4543" cx="23.649" cy="23.649" r="7.151"/>
+	          <path fill="#3D4543" d="M7.095,23.648c0-9.142,7.412-16.554,16.554-16.554c9.144,0,16.555,7.412,16.555,16.554
+		        c0,0.06-0.008,0.117-0.009,0.176h7.099c0-0.059,0.004-0.117,0.004-0.176C47.297,10.588,36.709,0,23.648,0
+		        C10.588,0,0,10.588,0,23.648c0,0.059,0.004,0.117,0.004,0.176h7.099C7.103,23.766,7.095,23.708,7.095,23.648z"/>
+          </g>
+        </svg>
+      </div>
+    </figure>
+  </article>
 
   <img class="nosotrosIso" src="<?php echo get_template_directory_uri(); ?>/img/iso.png" alt="">
 </section>
