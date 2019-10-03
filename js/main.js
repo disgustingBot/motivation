@@ -16,9 +16,9 @@ TxtType.prototype.tick = function() {
     var fullTxt = this.toRotate[i];
 
     if (this.isDeleting) {
-    this.txt = fullTxt.substring(0, this.txt.length - 1);
+      this.txt = fullTxt.substring(0, this.txt.length - 1);
     } else {
-    this.txt = fullTxt.substring(0, this.txt.length + 1);
+      this.txt = fullTxt.substring(0, this.txt.length + 1);
     }
 
     this.el.innerHTML = this.txt;
@@ -28,14 +28,17 @@ TxtType.prototype.tick = function() {
     var delta = 200 - Math.random() * 100;
 
     if (this.isDeleting) { delta /= 2; }
+    this.el.style.animationIterationCount = "1";
 
     if (!this.isDeleting && this.txt === fullTxt) {
       delta = this.period;
       this.isDeleting = true;
+      this.el.style.animationIterationCount = "infinite";
     } else if (this.isDeleting && this.txt === '') {
       this.isDeleting = false;
       this.loopNum++;
       delta = 500;
+      this.el.style.animationIterationCount = "infinite";
     }
 
     setTimeout(function() {
@@ -73,15 +76,18 @@ window.onload = function() {
 
 const options = {
   root: null, // it is the viewport, that's the default
-  threshold: 1, // that's the default
+  threshold: .6, // that's the default
   // rootMargin: "3rem 0px 0px 0px" // that's the default
 };
 
 const observer = new IntersectionObserver((entries, observer)=>{
   entries.forEach(entry => {
+    id=entry.target.getAttribute('data-target')
     if (entry.isIntersecting) {
-      c.log(entry.target);
+      d.getElementById(id).classList.add('active');
+      // c.log(d.getElementById(id));
     } else {
+      d.getElementById(id).classList.remove('active');
     }
     // c.log(entry);
   })
@@ -93,3 +99,8 @@ const sections = d.querySelectorAll('section');
 sections.forEach(e => {
   observer.observe(e);
 })
+
+
+
+// NAVBAR
+const alternateNavBar=()=>{const navBar=d.querySelector("#mobileMenu");if(navBar.classList.contains("active")){navBar.classList.remove("active")}else{navBar.classList.add("active")}}
