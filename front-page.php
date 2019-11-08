@@ -7,6 +7,9 @@
   </h1>
 </section>
 
+
+<?php while(have_posts()){the_post();the_content();} ?>
+
 <section class="nosotros" id="nosotros" data-target="hNosotros">
   <img class="nosotrosBG" src="<?php echo get_template_directory_uri(); ?>/img/KD_01.jpg" alt="">
   <img class="nosotrosLogo" src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="">
