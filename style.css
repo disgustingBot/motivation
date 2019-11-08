@@ -242,6 +242,13 @@ section{
   grid-template-columns: 100%;
 }
 
+body.gutenberg-editor-page .editor-post-title__block, body.gutenberg-editor-page .editor-default-block-appender, body.gutenberg-editor-page .editor-block-list__block {
+	max-width: none !important;
+}
+.block-editor__container .wp-block {
+  max-width: none !important;
+}
+
 /* ---------------------------------------------------------------------------
 ------------------------------------------------------------------------------
                               6) =COMPONENTES:
@@ -381,7 +388,7 @@ section{
   color:var(--color3);
 }
 .nosotrosIso{
-  height: 40px;
+  height: 2rem;
   width: auto;
   margin: auto;
   animation:1s linear rotate infinite;
